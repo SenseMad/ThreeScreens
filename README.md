@@ -44,38 +44,15 @@
 
 ## 📂 Структура проекта
 Assets/
-  _Project/
-    Scripts/
-      Core/          # менеджмент игры
-        GameManager.cs
-        SceneLoader.cs
-        GameState.cs
-        ScoreSystem.cs
-        ColorType.cs
-      Gameplay/      # игровая логика
-        PendulumController.cs
-        DiskSpawner.cs
-        Disk.cs
-        GridController.cs
-        MatchChecker.cs
-        ColumnTrigger.cs
-      UI/            # пользовательский интерфейс
-        MainMenuUI.cs
-        InGameUI.cs
-        ResultUI.cs
-      FX/            # эффекты
-        ParticleAutoDestroy.cs
-    Art/             # всё визуальное
-      Sprites/
-    Prefabs/         # префабы
-      UI/
-      Gameplay/
-    Scenes/          # сцены проекта
-      MainMenu.unity
-      Game.unity
-      Result.unity
-
-
+└── _Project/
+    ├── Scripts/
+    │   ├── Core/
+    │   ├── Gameplay/
+    │   └── UI/
+    ├── Prefabs/
+    ├── Art/
+    └── Scenes/
+    
 ---
 
 ## 🕒 Время выполнения
