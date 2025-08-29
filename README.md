@@ -45,13 +45,37 @@
 ## 📂 Структура проекта
 Assets/
 └── _Project/
-    ├── Scripts/
-    │   ├── Core/
-    │   ├── Gameplay/
-    │   └── UI/
-    ├── Prefabs/
-    ├── Art/
-    └── Scenes/
+├── Scripts/
+│ ├── Core/
+│ │ ├── SceneLoader.cs
+│ │ ├── GameState.cs
+│ │ ├── GameManager.cs
+│ │ ├── ScoreSystem.cs
+│ │ └── ColorType.cs
+│ ├── Gameplay/
+│ │ ├── PendulumController.cs
+│ │ ├── DiskSpawner.cs
+│ │ ├── Disk.cs
+│ │ ├── GridController.cs
+│ │ ├── MatchChecker.cs
+│ │ └── ColumnTrigger.cs
+│ ├── UI/
+│ │ ├── MainMenuUI.cs
+│ │ ├── InGameUI.cs
+│ │ └── ResultUI.cs
+│ └── FX/
+│ └── ParticleAutoDestroy.cs
+├── Art/
+│ ├── Sprites/
+├── Prefabs/
+│ ├── Gameplay/
+│ │ ├── Disk.prefab
+│ │ └── Particles_MatchBurst.prefab
+│ └── FX/
+├── Scenes/
+│ ├── MainMenu.unity
+│ ├── Game.unity
+│ └── Result.unity
     
 ---
 
